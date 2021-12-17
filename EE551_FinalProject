@@ -4,7 +4,7 @@ import pandas as pd
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 #initialize sources of financial news and get HTML data
-ticker = "BABA"
+ticker = "AMZN"
 url = "https://financialmodelingprep.com/financial-summary/" + ticker
 request = requests.get(url)
 
